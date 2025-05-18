@@ -1,0 +1,17 @@
+<html manifest="Cache.manifest">
+    <head>
+        <meta charset='utf-8'>
+        <title>PSFree-Lapse Exploit For 9.00</title>
+		<script>
+			//manifest="Cache.manifest"
+			if (window.applicationCache.status=='0'){window.location.replace("cache.html");}
+		</script>
+    </head>
+    <body>
+		<script type="module">
+		  import('./alert.mjs').then(() => {
+			return import('./payload.js');
+		  });
+		</script>
+    </body>
+</html>
