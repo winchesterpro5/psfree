@@ -51,8 +51,9 @@ addEventListener('error', event => {
 // errors
 //import('./psfree.mjs');
 
-export async function load() {
-	let {default: run} = await import('./psfree.mjs');
-	run();
+
+async function load() {
+    let psfree = await import('./psfree.mjs');
+    psfree.main();
 }
 load();
