@@ -2,17 +2,21 @@ CACHE MANIFEST
 
 CACHE: 
 about.html
-cache.html
 alert.mjs
+cache.html
 config.mjs
-Cache.manifest
+COPYING
 index.html
 lapse.mjs
+LICENSE
 payload.bin
 payload.js
 psfree.mjs
 README.md
 send.mjs
+fonts\FONTS.LICENSE
+fonts\LiberationMono-Regular.ttf
+fonts\README.txt
 kpatch\900.c
 kpatch\900.d
 kpatch\900.elf
