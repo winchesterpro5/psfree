@@ -49,14 +49,5 @@ addEventListener('error', event => {
 
 // we have to dynamically import the program if we want to catch its syntax
 // errors
-//import('./psfree.mjs');
+import('./psfree.mjs');
 
-
-import("./psfree.mjs").then((module) => {
-    // Проверяем, есть ли функция main в модуле, и вызываем её
-    if (typeof module.main === 'function') {
-        module.main();
-    } else {
-        alert('Функция main() не найдена в psfree.mjs');
-    }
-});
